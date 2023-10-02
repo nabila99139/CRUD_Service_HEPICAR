@@ -1,6 +1,6 @@
 DATABASE:
 database name: services
-table name: services, users (optional)
+table name: services
 
 BACKEND:
 npm init -y
