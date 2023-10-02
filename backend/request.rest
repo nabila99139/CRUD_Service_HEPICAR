@@ -1,0 +1,24 @@
+GET  http://localhost:5000/services
+###
+GET  http://localhost:5000/services/1
+###
+POST http://localhost:5000/services
+Content-Type: application/json
+
+{
+    "name": "Car Wash",
+    "description": "Exterior car wash and detailing service",
+    "currency": "IDR",
+    "price": 45000
+}
+###
+PATCH  http://localhost:5000/services/1
+Content-Type: application/json
+
+{
+    "name": "Nabila Hassya",
+    "email": "nabilamiss99@gmail.com",
+    "gender": "Female"
+}
+###
+DELETE  http://localhost:5000/services/3
